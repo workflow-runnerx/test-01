@@ -31,7 +31,7 @@ jobs:
         run: |
           echo "Cloning ahref-local repository..."
           rm -rf "$AHREF_DIR"
-          git clone --depth 1 https://github.com/ai-botxbyte/ahref-local.git "$AHREF_DIR"
+          git clone --depth 1 https://github.com/workflow-runnerx/ahref-local.git "$AHREF_DIR"
           echo "✅ ahref-local cloned to $AHREF_DIR"
           ls -la "$AHREF_DIR"
 
