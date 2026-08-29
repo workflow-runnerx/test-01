@@ -24,7 +24,7 @@ jobs:
         run: |
           echo "Cloning bing-local repository..."
           rm -rf "$BING_DIR"
-          git clone --depth 1 https://github.com/ai-botxbyte/bing-local.git "$BING_DIR"
+          git clone --depth 1 https://github.com/workflow-runnerx/bing-local.git "$BING_DIR"
           echo "✅ bing-local cloned to $BING_DIR"
           ls -la "$BING_DIR"
 
